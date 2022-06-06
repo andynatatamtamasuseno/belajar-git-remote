@@ -1,3 +1,4 @@
+git init = menginstal git di folder
 git branch = mengecek branch
 git add index.html = menambahkan perubahan di git
 git commit -m "create index" = menyimpan hasil perubahan
@@ -6,3 +7,7 @@ git remote add origin link http/ssh = menambahkan remote origin
 git remote get-url origin = mengecek url remote origin
 git remote rm origin = menghapus remote
 git push origin master = mengirimkan hasil commit di branch lokal ke link remote
+git push origin master:develop = mengirim hasil commit di brach master ke barch develop di link remote
+git push origin --all = mengirim semua branch di lokal ke repository
+git push  --delete origin feature/a = menghapus branch develop di repo origin
+git clone url-ssh/http nama-folder = mengabil repository di git dengan nama foldernya nama-folder 
