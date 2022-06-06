@@ -1,0 +1,8 @@
+git branch = mengecek branch
+git add index.html = menambahkan perubahan di git
+git commit -m "create index" = menyimpan hasil perubahan
+git remote = melihat list of remote
+git remote add origin link http/ssh = menambahkan remote origin
+git remote get-url origin = mengecek url remote origin
+git remote rm origin = menghapus remote
+git push origin master = mengirimkan hasil commit di branch lokal ke link remote
